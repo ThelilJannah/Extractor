@@ -54,11 +54,11 @@ Email: no-reply@domain.org
 ### **Example Output**
 
 ```
-Unique IPs found:
+Number of non dup IPs found: 2
 192.168.1.10
 10.0.0.45
 
-Unique Emails found:
+Number of non dup emails found: 2
 support@company.com
 no-reply@domain.org
 ```
@@ -74,6 +74,3 @@ no-reply@domain.org
   python3 extractor.py > results.txt
   ```
 
----
-
-Would you like me to include a short code sample for `extractor.py` (the minimal working version that matches this README)?
