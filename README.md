@@ -33,7 +33,7 @@ It’s handy for log analysis, forensics or data cleaning tasks.
    python3 extractor.py
    ```
 
-4. **Follow prompts (if any)**
+4. **Follow prompts**
    The script will process the file and print the results.
 
 ---
