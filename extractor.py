@@ -13,7 +13,7 @@ except:
 def extract_emails(file):
     emails = []
     with open(file, "r") as f:
-        pattern = re.compile(r"\w+@.+\.*\w+$")
+        pattern = re.compile(r"[a-zA-Z0-9+%-_.]+@.+\w+$")
         for line in f:
             found = pattern.findall(line)
             if found:
